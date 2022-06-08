@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learningTDDev.API", "learningTDDev.API\learningTDDev.API.csproj", "{97BBA25C-AC12-4365-8ED7-B9444B1244DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learningTDDev.UnitTests", "learningTDDev.UnitTests\learningTDDev.UnitTests.csproj", "{627A796D-6EA7-4338-8BCA-57633B6F24C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97BBA25C-AC12-4365-8ED7-B9444B1244DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97BBA25C-AC12-4365-8ED7-B9444B1244DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97BBA25C-AC12-4365-8ED7-B9444B1244DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97BBA25C-AC12-4365-8ED7-B9444B1244DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{627A796D-6EA7-4338-8BCA-57633B6F24C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{627A796D-6EA7-4338-8BCA-57633B6F24C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{627A796D-6EA7-4338-8BCA-57633B6F24C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{627A796D-6EA7-4338-8BCA-57633B6F24C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
