@@ -1,3 +1,4 @@
+using learningTDDev.API.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace learningTDDev.API.Controllers;
@@ -6,16 +7,18 @@ namespace learningTDDev.API.Controllers;
 [Route("[controller]")]
 public class UsersController : ControllerBase
 {
-   
-    private readonly ILogger<UsersController> _logger;
-    public UsersController(ILogger<UsersController> logger)
+    private readonly IUsersService _userService;
+
+    public UsersController(IUsersService userService)
     {
-        _logger = logger;
+        this._userService = userService;
     }
+   
 
     [HttpGet(Name = "GetUsers")]
     public async Task<IActionResult> Get()
     {
-        return null;
+        var users = await _userService.GetAllUsers();
+        return Ok(users);
     }
 }

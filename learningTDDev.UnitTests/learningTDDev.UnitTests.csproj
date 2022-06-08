@@ -28,4 +28,8 @@
     <Folder Include="Fixtures\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\learningTDDev.API\learningTDDev.API.csproj" />
+  </ItemGroup>
+
 </Project>

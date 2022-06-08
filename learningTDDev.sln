@@ -1,19 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30114.105
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learningTDDev.API", "learningTDDev.API\learningTDDev.API.csproj", "{97BBA25C-AC12-4365-8ED7-B9444B1244DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "learningTDDev.API", "learningTDDev.API\learningTDDev.API.csproj", "{97BBA25C-AC12-4365-8ED7-B9444B1244DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learningTDDev.UnitTests", "learningTDDev.UnitTests\learningTDDev.UnitTests.csproj", "{627A796D-6EA7-4338-8BCA-57633B6F24C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "learningTDDev.UnitTests", "learningTDDev.UnitTests\learningTDDev.UnitTests.csproj", "{627A796D-6EA7-4338-8BCA-57633B6F24C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CF0B9C6E-25A0-481D-92BB-D92935201D2A}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{97BBA25C-AC12-4365-8ED7-B9444B1244DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -24,5 +26,11 @@ Global
 		{627A796D-6EA7-4338-8BCA-57633B6F24C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{627A796D-6EA7-4338-8BCA-57633B6F24C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{627A796D-6EA7-4338-8BCA-57633B6F24C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {32849A69-CCD0-4F66-802F-A3682BE7CCF4}
 	EndGlobalSection
 EndGlobal
